@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MENU UTAMA"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Aplikasi Perhitungan Gaji Karyawan"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnMenuUtamaRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu Utama" />        <Button
+            android:id="@+id/btnInfoGajiRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Info Gaji Karyawan" />        <Button
+            android:id="@+id/btnPetunjukRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Petunjuk Penggunaan" />        <Button
+            android:id="@+id/btnTentangRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tentang Aplikasi" />        <Button
+            android:id="@+id/btnExitRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit" />    </LinearLayout>
+</ScrollView>

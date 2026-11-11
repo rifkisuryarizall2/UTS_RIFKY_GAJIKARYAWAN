@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TENTANG APLIKASI"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:text="Aplikasi Perhitungan Gaji Karyawan\nVersi 1.0\n\nDibuat oleh: Rifki\nMata Kuliah: Pemrograman Mobile\nDosen: Herianto, M.Kom\n\nUjian Tengah Semester Ganjil 2025/2026"
+        android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnKembaliTentangRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kembali" /></LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="INFO GAJI KARYAWAN"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNikRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Induk Karyawan"
+            android:inputType="text" />        <EditText
+            android:id="@+id/etNamaRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:inputType="textPersonName" />        <EditText
+            android:id="@+id/etGajiPokokRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gaji Pokok (Rp)"
+            android:inputType="number" />        <EditText
+            android:id="@+id/etTunjanganJabatanRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tunjangan Jabatan (Rp)"
+            android:inputType="number" />        <EditText
+            android:id="@+id/etHariKerjaRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Hari Kerja"
+            android:inputType="number" />        <Button
+            android:id="@+id/btnHitungRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung" />        <Button
+            android:id="@+id/btnResetRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset" />        <TextView
+            android:id="@+id/tvHasilRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="4dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnKembaliRifki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kembali" />    </LinearLayout>
+</ScrollView>
